@@ -1,0 +1,35 @@
+<form  action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="item" class="text-light">Item </label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="item" value="" placeholder="enter the item">
+        </div>
+        <div class="form-group">
+            <label for="discription" class="text-light">Discription</label>
+            <input type="text" name="discription" value="" placeholder=".............">
+        </div>
+        <div class="form-group">
+            <label for="quatity " class="text-light">quatity </label>
+            <input type="text" name="quatity" value="" placeholder="enter quatity ">
+        </div>
+        
+        <div class="form-group">
+            <label for="status" class="text-light">Status</label>
+            <div class="radio inline">
+            <input type="radio" id="radio-4" name="status" value="In Stock" >
+            <label for="radio-4" class="radio-label">In Stock</label>
+            </div>
+            
+            <div class="radio inline">
+            <input type="radio" id="radio-5" name="status" value="Out Stock" >
+            <label for="radio-5" class="radio-label">Out Stock</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+    
+        
+    </div>
+    </form>
